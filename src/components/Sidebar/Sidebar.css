@@ -1,0 +1,7 @@
+.sidebar-animation {
+  transition: all 0.4s ease-in;
+}
+.sidebar-container {
+  left: -50px;
+  width: 0;
+}

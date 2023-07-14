@@ -1,0 +1,49 @@
+.setBackground-image {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(29, 86, 131, 1) 0%,
+    rgba(33, 150, 243, 1) 54%,
+    rgba(130, 216, 238, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(29, 86, 131, 1) 0%,
+    rgba(33, 150, 243, 1) 54%,
+    rgba(130, 216, 238, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(29, 86, 131, 1) 0%,
+    rgba(33, 150, 243, 1) 54%,
+    rgba(130, 216, 238, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82D8EE', endColorstr='#FFFF00', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(29, 86, 131, 1) 0%,
+    rgba(33, 150, 243, 1) 54%,
+    rgb(64, 172, 199) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgb(34, 106, 161) 0%,
+    rgba(33, 150, 243, 1) 54%,
+    rgba(130, 216, 238, 1) 100%
+  );
+}
